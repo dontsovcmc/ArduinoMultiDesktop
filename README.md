@@ -57,3 +57,30 @@ void loop()
 	delay(1);
 }
 '''
+
+# Examples
+
+See examples in source folder:
+
+- serial_2leds_2codes.cpp
+Input '+' '*' from Serial, 2 desktops, 1 actions on each desktop : toggle own LED
+
+- serial_3codes.cpp
+Input '+' '-' '*' from Serial, 3 desktops, 1-2 actions: print smth
+
+- serial_button_3codes.cpp
+Input '+' '-' '*' from Serial or 3 buttons, 3 desktops, 1-2 actions: print smth
+
+
+- serial_button_led_menu_3codes.cpp
+Input '+' '-' '*' from Serial or 3 buttons:
+Desktop 1: message
+Desktop 2: toggle LED
+Desktop 3: start menu
+
+Menu: toggle LED
+
+
+
+
+
