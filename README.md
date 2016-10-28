@@ -2,6 +2,8 @@
 
 MultiDesktop little library for easy buttons + screen coding.
 
+![MultiDesktop library overview](/img/main.png)
+
 I use https://github.com/neu-rah/ArduinoMenu for button support.
 
 The first example with control through Serial:
